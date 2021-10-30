@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 100vw;
+    height: 15vh;
+    background-color: gray;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    width: 100vw;
+    min-height: 85vh;
+    padding-left: 40px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.editImg{
+    width: 40px;
+    height: 40px;
+    margin-left: 30%;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+.editText{
+    width: 135px;
+    height: 30px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boldImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.boldImg1{
+    width: 20px; 
+    height: 20px;
+    background-color: gray;
+    display: none;
+}
+.italickImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.italickImg1{
+    width: 20px; 
+    height: 20px;
+    background-color: gray;
+    display: none;
+}
+.underlineImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.underlineImg1{
+    width: 20px; 
+    height: 20px;
+    background-color: gray;
+    display: none;
+}
+.strikeImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.strikeImg1{
+    width: 20px; 
+    height: 20px;
+    background-color: gray;
+    display: none;
+}
+.textAline{
+    width: 99px;
+    height: 30px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.leftAlineImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.centrAlineImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.rightAlineImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+
+.editFont{
+    width: 135px;
+    height: 30px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fontFamilyImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.fontImg{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: 13px;
+}
+.fontSizeImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: -3px;
+}
+.font{
+    width: 34px;
+    border: none;
+    background: transparent;
+    position: relative;
+    left: -8px;
+}
+.size{
+    width: 38px;
+    border: none;
+    background: transparent;
+    position: relative;
+    left: -26px;
+}
+.fontColorImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: -20px;
+}
+.backImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+    position: relative;
+    left: -10px;
+}
+.login{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.loginImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+}
+.unlockImg{
+    width: 20px; 
+    height: 20px;
+    background-color: white;
+    display: none;
+}
+
+.textColor{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.boxColor{
+    width: 500px;
+    height: 340px;
+    margin-left: calc(50% - 250px);
+    margin-top: 10%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.choseColor{
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.color{
+    width: 100%;
+    height: 264px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.color>p{
+    width: 58px;
+    height: 58px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 0;
+}
+
+.backColor{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.backboxColor{
+    width: 500px;
+    height: 380px;
+    margin-left: calc(50% - 250px);
+    margin-top: 10%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.backchoseColor{
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.backgrondcolor{
+    width: 100%;
+    height: 264px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.backgrondcolor>p{
+    width: 58px;
+    height: 58px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 0;
+}
+.choseBack{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#color{
+    border: 2px solid;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.backdroundImg{
+    width: 100%;
+    height: 264px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: none;
+}
+.nature{
+    background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2017/11/dolomites-2179602_1920.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.flower{
+    background-image: url(https://i.pinimg.com/originals/f6/bd/84/f6bd84153caf3ea4939b66813ade5ec6.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.mountain{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Red_Slate_Mountain_1.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.sky{
+    background-image: url(https://www.daysoftheyear.com/wp-content/uploads/look-up-at-the-sky-day-1.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.car{
+    background-image: url(https://media.springernature.com/full/springer-cms/rest/v1/img/18893370/v1/height/320);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.sun{
+    background-image: url(https://images.indianexpress.com/2020/11/pixabay_sun_1200.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.robot{
+    background-image: url(https://www.birdlife.org/wp-content/uploads/2021/09/Nature_positive_shutterstock_1451653292_1_1.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.water{
+    background-image: url(https://www.iucn.org/sites/dev/files/content/images/2020/shutterstock_1458128810.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+.grass{
+    background-image: url(https://www.go-grass.eu/wp-content/uploads/2019/12/chang-qing-8oPubUm97Cc-unsplash-scaled.jpg);
+    width: 130px;
+    height: 72px;
+    background-size: 130px 72px;
+    font-size: 0;
+    border-radius: 10px;
+}
+#file{
+    width: 400px;
+    border: 1px solid black;
+    height: 23px;
+    margin-top: 30px;
+    margin-left: 35px;
+    border-radius: 5px;
+    display: none;
+}
+.loginConteiner{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.loginBox{
+    width: 450px;
+    height: 270px;
+    position: relative;
+    top: 100px;
+    left: calc(50% - 225px);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputText{
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding-left: 10px;
+}
+.inputPassword{
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding-left: 10px;
+}
+.signinBtn{
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding-left: 10px;
+}
+.loginBox>p{
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    display: none;
+}
+.unlockConteiner{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.unlockBox{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 40%;
+    left: calc(50% - 100px);
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.cancelBtn{
+    width: 130px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+.signoutBtn{
+    width: 130px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+.sidebar2{
+    width: 100vw;
+    height: 15vh;
+    background-color: gray;
+    padding-top: 20px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#textarea{
+    width: 100%;
+    min-height: 530px;
+    display: none;
+}
+.saveImg{
+    width: 40px; 
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tableImg{
+    width: 40px; 
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.ulListImg{
+    width: 40px; 
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.olListImg{
+    width: 40px; 
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tableConteiner{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.tableBox{
+    width: 500px;
+    height: 330px;
+    position: relative;
+    top: calc(50% - 200px);
+    left: calc(50% - 250px);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.head>h2{
+    margin-bottom: 10px;
+}
+.box1>input[type="text" i]{
+    width: 213px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.box2>input[type="text" i]{
+    width: 213px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.resetBT{
+    width: 213px;
+    height: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 6px;
+    margin-top: 24px;
+}
+.box2>select{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+.tableBT{
+    margin-top: 41px;
+    width: 211px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+.box1>p{
+    display: none;
+    position: absolute;
+    color: red;
+}
+.close2{
+    width: 25px;
+    height: 25px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.ulConteiner{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.ulBox{
+    width: 364px;
+    height: 250px;
+    position: relative;
+    top: calc(50% - 125px);
+    left: calc(50% - 182px);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.close3{
+    width: 25px;
+    height: 25px;
+}
+.ulHead{
+    display: flex;
+    justify-content: space-between;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.box3>input{
+    height: 30px;
+    font-size: 20px;
+}
+.box3>select{
+    height: 30px;
+    font-size: 20px;
+}
+.resetUlBT{
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.listBT{
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+.box3>p{
+    color: red;
+    position: relative;
+    display: none;
+}
+
+.olConteiner{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+    display: none;
+}
+.olBox{
+    width: 364px;
+    height: 250px;
+    position: relative;
+    top: calc(50% - 125px);
+    left: calc(50% - 182px);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.close4{
+    width: 25px;
+    height: 25px;
+}
+.olHead{
+    display: flex;
+    justify-content: space-between;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.box4>input{
+    height: 30px;
+    font-size: 20px;
+}
+.box4>select{
+    height: 30px;
+    font-size: 20px;
+}
+.resetOlBT{
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.listOlBT{
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+.box4>p{
+    color: red;
+    position: relative;
+    display: none;
+}
